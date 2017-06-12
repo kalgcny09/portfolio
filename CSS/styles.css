@@ -1,0 +1,146 @@
+/*
+.color-primary-1 { color: #003400 } Darkest Green
+.color-primary-2 { color: #004E00 } Darker Green
+.color-primary-0 { color: #2D882D } Dark Green
+.color-primary-3 { color: #8FC28F } light grey green
+.color-primary-4 { color: #E7F6E7 }  white green */
+
+
+body {
+	background: linear-gradient(359deg, #ffffff, #8fc28f, #003400, #8fc28f, #ffffff);
+	font-size: 18px;
+	-webkit-animation: backgroundColor 16s ease infinite;
+	-moz-animation: backgroundColor 16s ease infinite;
+	animation: backgroundColor 16s ease infinite;
+	background-size: 1000% 1000%;
+
+}
+
+@-webkit-keyframes backgroundColor {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@-moz-keyframes backgroundColor {
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+@keyframes backgroundColor { 
+    0%{background-position:51% 0%}
+    50%{background-position:50% 100%}
+    100%{background-position:51% 0%}
+}
+
+
+
+
+p {
+/*	overflow: hidden;*/
+	white-space: nowrap;
+	margin: 0 auto;
+	animation: type 8s steps(60,end);
+	color: #8cff1a;
+	text-align: center;
+
+
+}
+
+@keyframes type{ 
+  from { width: 0; }
+  to { width: 100%;}
+  from {opacity: 0;}
+  1% {opacity: 1;}
+  to {opacity: 1;}
+} 
+
+.navbar {
+	background: #003400;
+
+}
+
+.name {
+	color: white;
+	margin-top: 14px;
+	border-right: 2px solid white;
+}
+
+.navbar-default .navbar-brand {
+    color: #E7F6E7;
+
+}
+
+.navbar-header {
+	margin-left: 65px;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #E7F6E7;
+}
+
+
+.topMiddleRow {
+	/*margin-left: 40px;*/
+}
+
+.topRightRow {
+	border-left: 2px solid white;
+	height: 25px;
+	margin-top: 14px;
+}
+
+
+.firstRow {
+	height: 75px;
+}
+
+
+
+
+.secondRow {
+	height: 200px;
+	margin-bottom: 50px;
+
+}
+
+.left{
+	background-color: #8FC28F;
+	border-radius: 25px;
+}
+
+.slide{
+	border: 2px solid white;
+	border-radius: 25px;
+	background-color: #2D882D;
+	height: 500px;
+}
+
+
+
+.right {
+	background-color: #8FC28F;
+	border-radius: 25px;
+
+}
+
+
+.item {
+	margin-top: 35px;
+}
+
+.projectPic {
+	margin: 0 auto;
+	width: 30%;
+	border-radius: 25px;
+}
+
+.carousel-caption {
+
+	position: static;
+}
+
+
+.thirdRow {
+	height: 200px;
+}
